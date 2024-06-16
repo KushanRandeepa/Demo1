@@ -9,13 +9,10 @@ body {
     background-size: cover;
 }
 
-header {
-    text-align: center;
-    background-color: beige;
-    padding: 20px;
-}
 
-header h1 {
+
+#heading {
+    text-align: center;
     margin: 0;
     color: black;
 }
@@ -28,20 +25,9 @@ nav ul {
     gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-}
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
 
-main {
-    padding: 20px;
-    text-align: center;
-}
+
 
 h2 {
     font-size: 2em;
@@ -59,10 +45,7 @@ h2 {
     margin: 20px 0;
 }
 
-.featured-books img {
-    width: 150px;
-    margin: 0 10px;
-}
+
 
 table {
     width: 100%;
@@ -76,14 +59,9 @@ thead {
     color: white;
 }
 
-tbody {
-    background-color: white;
-}
 
-td, th {
-    padding: 10px;
-    border: 1px solid #ddd;
-}
+
+
 
 button {
     padding: 10px 20px;
@@ -99,17 +77,4 @@ footer {
     padding: 10px;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-}
 
-footer ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: black;
-}
